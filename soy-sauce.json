@@ -1,0 +1,142 @@
+{
+    "class": {
+        "title":"酱油党",                                   
+        "icon":"icon-war3/Ability_Hunter_Readiness.png"
+    },
+    "mosou": [
+        [
+            {
+                "title":"四大名著" ,
+                "icon":"icon.png" ,
+                "desc":"通读以下书籍:<ul><li><em>算法导论</em>(ISBN 9787111187776)<li><em>计算机程序的构造和解释</em>(ISBN 9787111135104)<li><em>编译原理(红龙或者紫龙)</em><li><em>数据库系统概念</em>(ISBN 9787111375296)</ul>"
+            }
+        ]                                                    
+    ] ,                                                      
+    "extreme": [
+        [
+            {
+                "title":"现代软件工程" ,
+                "icon":"icon.png" ,
+                "desc":"实践过以下的其中四条:<ul><li>和需求吵<li>和PM吵<li>和设计吵<li>和开发吵<li>和测试吵</ul>", 
+                "quote":"现代软件工程分为四个阶段：和PM吵 和设计吵 和测试吵 和用户吵"
+            } ,
+            {
+                "title":"存在价值" ,
+                "icon":"icon.png" ,
+                "desc":"在github上, 自己的repo/gist获得一个star"
+            }
+        ]
+    ] ,
+    "super": [
+        [
+            {
+                "title":"github II" ,
+                "icon":"icon.png" ,
+                "desc":"第一次回复他人提交的ISSUE并关闭之"
+            }
+        ] ,
+        [
+            {
+                "title":"算法 III" ,
+                "icon":"icon.png" ,
+                "desc":"扬言要通读<em>算法导论</em>(ISBN 9787111187776)"
+            } ,
+            {   
+                "title":"数据结构 III" ,
+                "icon":"icon.png" ,
+                "desc":"购买(影印版的)<em>STL源码剖析</em>(ISBN 9787560926995)"
+            } ,
+            {
+                "title":"git III" ,
+                "icon":"icon.png" ,
+                "desc":"(没有执行标准)"
+            }
+        ]
+    ] ,
+    "premium": [
+        [
+            {
+                "title":"github I" ,
+                "icon":"icon.png" ,
+                "desc":"为自己在 github 的库撰写 README.md"
+            }
+        ]
+        [
+            {
+                "title":"git II" ,
+                "icon":"icon.png",
+                "desc":"使用过以下命令(或对应gui功能):<ul><li>git checkout<li>git reset<li>git merge/rebase</ul>"
+            } ,
+            {
+                "title":"忆苦思甜" ,
+                "icon":"icon.png" ,
+                "desc":"自修 或 通过学校的386汇编课程"
+            }
+        ] ,
+        [
+            {
+                "title":"算法 II" ,
+                "icon":"icon.png",
+                "icon":"分析 KMP算法 或者 快速排序算法 的时间复杂度(闭卷)"
+            } ,
+            {
+                "title":"数据结构 II" ,
+                "icon":"icon-war3/Ability_Hunter_Readiness.png" ,
+                "desc":"使用任意语言的map类完成&quot;统计一篇文章(英语)中出现次数最多的单词个数&quot;"
+            } ,
+            {
+                "title":"递归" ,
+                "icon":"icon.png" ,
+                "desc":"编程实现:&quot;输入n(1&lt;n&lt;10), 输出n的全排列&quot;"
+            } ,
+            {
+                "title":"迭代" ,
+                "icon":"icon.png" ,
+                "desc":"使用另一种方法实现:&quot;输入n(1&lt;n&lt;10), 输出n的全排列&quot;"
+            }
+        ]
+    ] ,
+    "normal": [
+        [
+            {
+                "title":"不求人" ,
+                "icon":"icon-war3/Ability_Hunter_Readiness.png" ,
+                "desc":"从 <a href='http://stackoverflow.com/'>stackoverflow</a> 找到自己遇到问题的答案"
+            } ,
+            {
+                "title":"git I" ,
+                "icon":"icon.png" ,
+                "desc":"使用过以下命令(或对应gui功能):<ul><li>git init/clone<li>git add<li>git commit<li>git push</ul>"
+            }
+        ] ,
+        [
+            {
+                "title":"算法 I" ,
+                "icon":"icon-war3/Ability_Hunter_Readiness.png" ,
+                "desc":"写出一个正确的二分查找"
+            } ,
+            {
+                "title":"数据结构 I" ,
+                "icon":"icon.png" ,
+                "desc":"实现一个正确的双向链表"
+            } ,
+            {
+                "title":"绝对零" ,
+                "icon":"icon.png" ,
+                "desc":"编程实现&quot;比较两个浮点数是否相等&quot;并通过测试"
+            } ,
+            {
+                "title":"感动到哭" ,
+                "icon":"icon.png" ,
+                "desc":"第一次写出有GUI的程序"
+            }
+        ] ,
+        [
+            {
+                "title":"捉虫", 
+                "icon":"icon-war3/Ability_Hunter_Readiness.png" ,
+                "desc":"正确回答&quot;Visual Studio&reg;中, 单步执行的快捷键是什么&quot;(闭卷)"
+            }
+        ]
+    ]
+}

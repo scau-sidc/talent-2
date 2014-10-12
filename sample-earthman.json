@@ -1,0 +1,70 @@
+// 技能树描述文件
+// 视图与数据分离是软件工程学的一个重要原则, 撰写这个文件是为了让技能树的编写与修订者能专注于内容本身而不是样式和交互问题.
+// 要撰写这个文件, 你需要对bootstrap的栅格系统有基本的了解, 参考书在这儿 http://v3.bootcss.com/css/#grid
+
+{
+    "class": {                                              // 职阶
+        "title":"蓝星人",                                   
+        "icon":"icon-war3/Ability_Hunter_Readiness.png"
+    },
+    "mosou": [                                              // 评价等级 "mosou"(无双) > "extreme"(超凡) > "super"(卓越) > "premium"(优秀) > "normal"(普通)
+        [                                                   // 对应 bootstrap 的 .row, 每个等级容纳 1-无限 个 .row
+            {                                               // 技能, 每个 .row 容纳 0-4 个技能, 每个技能在 md 以上分辨率占三个栅格宽度
+                "title":"Hello, 蓝星人之王" ,                
+                "icon":"icon-war3/Ability_Hunter_Readiness.png" ,
+                "desc":"使用任意50种语言编写 hello, world." ,
+                "badge":"见多识广" ,                         // 成就, 可选, 某些技能在达成时会获得额外的称号
+                "quote":"做小事不难, 难的是做到极致" ,      // 引言, 可选, 类似于 DoTA 中 铁树枝干 的嘲讽附言:"带上它来确保一场好的开局(good game)"
+                "align":"3"                                  // 对齐, 可选, 对应bootstrap 的 .col-md-offset-n, 可选值 0-11, 缺省则由渲染者决定布局
+            }
+        ]                                                    // end_row
+    ] ,                                                      // end_level
+    "extreme": [
+        [
+            {
+                "title":"教授" ,
+                "icon":"icon-war3/Ability_Hunter_Readiness.png" ,
+                "desc":"第一次在935发表讲座" 
+            }
+        ]
+    ] ,
+    "super": [
+        [
+            {
+                "title":"Marked" ,
+                "icon":"icon.png" ,
+                "desc":"第一次使用&nbsp;<a href='http://cuter44.github.io/hello-git/toarukagakunomarkdown.html'>Markdown</a>&nbsp;撰写文本"
+            } ,
+            {   
+                "title":"讨厌鬼" ,
+                "icon":"icon.png" ,
+                "desc":"发现世界上存在名为&nbsp;<a href='http://cuter44.github.io/hello-git/hello-git-2014'>git</a>&nbsp;的事物"
+            }
+        ]
+    ] ,
+    "premium": [
+        [
+            {
+                "title":"专注模式" ,
+                "icon":"icon-war3/Ability_Hunter_Readiness.png" ,
+                "desc":"第一次通宵到凌晨4点.(打机/考前突击除外)"
+            }
+        ]
+    ] ,
+    "normal": [
+        [
+            {
+                "title":"疯-诺依曼" ,
+                "icon":"icon-war3/Ability_Hunter_Readiness.png" ,
+                "desc":"完成<em>计算机科学概论&nbsp;</em>(ISBN 9787115211934)&nbsp;的任意5章"
+            }
+        ] ,
+        [
+            {
+                "title":"Hello 蓝星人", 
+                "icon":"icon-war3/Ability_Hunter_Readiness.png" ,
+                "desc":"使用任意编程语言编写 Hello, world."
+            }
+        ]
+    ]
+}

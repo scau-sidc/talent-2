@@ -1,0 +1,56 @@
+.level {
+  padding: 8px 0px;
+}
+
+.level-mosou {
+  border-top: 2px solid rgb(240, 173, 78);  
+  background-color: rgba(240, 173, 78, 0.35);
+  background-image: url("asset/watermark-mosou.png");
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+}
+.level-extreme {
+  border-top: 2px solid rgb(133, 82, 161);  
+  background-color: rgba(133, 82, 161, 0.35);
+  background-image: url("asset/watermark-extreme.png");
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+}
+.level-super {
+  border-top: 2px solid rgb(88, 94, 170);  
+  background-color: rgba(88, 94, 170, 0.35);
+  background-image: url("asset/watermark-super.png");
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+}
+.level-premium {
+  border-top: 2px solid rgb(29, 149, 63);  
+  background-color: rgba(29, 149, 63, 0.35);
+  background-image: url("asset/watermark-premium.png");
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+}
+.level-normal {
+  border-top: 2px solid rgb(192, 192, 192);
+  background-color: rgba(192, 192, 192, 0.35);
+  background-image: url("asset/watermark-normal.png");
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+}
+
+.skill {
+  margin: 4px;
+  padding: 0px 4px;
+}
+
+.skill-icon {
+  margin-right: 8px;
+  width: 36px;
+  height: 36px;
+}
+
+.skill-title {
+  margin: 0px;
+  border-bottom: 1px solid #dddddd;
+  padding: 4px 0px;
+}
