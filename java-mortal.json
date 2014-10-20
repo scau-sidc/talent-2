@@ -1,0 +1,106 @@
+{
+    "class": {
+        "title":"Java后台攻城狮(凡人)",
+        "icon":"icon-war3/Ability_Hunter_Readiness.png"
+    },
+    "mosou": [
+        [
+            {
+                "title":"叛离", 
+                "icon":"icon.png",
+                "desc":"论据确凿地说明 Java 很渣"
+            }
+        ]
+    ] ,
+    "extreme": [
+        [
+            {
+                "title":"创造与破坏" ,
+                "icon":"icon.png" ,
+                "desc":"在字节码级别使一个 Hello world 不输出 Hello world (但是能正确运行)" ,
+                "quote":"炼成过程分为三个阶段, 那就是理解-分解-重组."
+            }
+        ]
+    ] ,
+    "super": [
+        [
+            {
+                "title":"无剑" ,
+                "icon":"icon.png" ,
+                "desc":"不再使用 SSH 之类笨重的框架"
+            }
+        ]
+        [
+            {
+                "title":"无剑" ,
+                "icon":"icon.png" ,
+                "desc":"不再使用 SSH 之类笨重的框架"
+            } ,
+            {
+                "title":"日曜" ,
+                "icon":"icon.png" ,
+                "desc":"不再使用 Eclipse"
+            }
+        ] ,
+        [
+            {
+                "title":"封装" ,
+                "icon":"icon.png" ,
+                "desc":"使用 protected 关键字 1000 次" ,
+                "quote":"面向对象的三个特征:封装, 继承, 多态"
+            } ,
+            {
+                "title":"继承" ,
+                "icon":"icon.png" ,
+                "desc":"(没有考查目标)"
+            } ,
+            {
+                "title":"多态" ,
+                "icon":"icon.png" ,
+                "desc":"(没有考查目标)"
+            }
+        ]
+    ] ,
+    "premium": [
+        [
+            {
+                "title":"框架" ,
+                "icon":"icon.png",
+                "desc":"第一次使用以下任意框架:<ul><li>Struts<li>Spring<li>Hibernate<li>Play!<li>JFinal<li>etc.</ul>"
+            } 
+        ] ,
+        [
+            {
+                "title":"javadog" ,
+                "icon":"icon.png" ,
+                "desc":"第一次认真地撰写 javadoc (面向对象程序设计 课程的操作实验除外)"
+            } ,
+            {
+                "title":"构建" ,
+                "icon":"icon.png" ,
+                "desc":"第一次编写/修改 build.xml (IDE 自动生成的除外)"
+            }
+        ]
+    ] ,
+    "normal": [
+        [
+            {
+                "title":"日蚀" ,
+                "icon":"icon.png" ,
+                "desc":"第一次使用 Eclipse"
+            }
+        ] ,
+        [
+            {
+                "title":"并发" ,
+                "icon":"icon.png" ,
+                "desc":"第一次使用Runnable"
+            } ,
+            {
+                "title":"构造", 
+                "icon":"icon.png" ,
+                "desc":"第一次实现工厂方法和单例方法"
+            }
+        ]
+    ]
+}
